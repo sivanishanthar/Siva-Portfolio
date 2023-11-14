@@ -2,10 +2,27 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
   background-color: #fff;
+}
+p {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .header {
@@ -13,38 +30,182 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   color: #000;
   background-color: #fff;
-  
+}
+.header .name {
+  display: inline-block;
 }
 .header h1 {
-    font-size: 32px;
-    display: inline-block;
+  font-size: 48px;
+  color: #3279a8;
+}
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+.header nav ul {
+  list-style-type: none;
 }
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
-  }
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.header nav ul li a:hover,
+.header nav ul li a:focus {
+  color: #1c0808;
+}
 
-  .header nav ul {
-    list-style-type: none;
-  }
+p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
-  .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+/* About me*/
+.aboutme-img {
+  text-align: center;
+}
+
+.headshot {
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-7 {
+  flex: 0 0 auto;
+  width: 60%;
+}
+.col-5 {
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+.dicription {
+  padding: 30px;
+}
+.dicription p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.hero {
+  height: 375px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("/CHALLENGE-02/assets/images/laptop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.3333%;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.project-img {
+  height: 400px;
+  transition: 0.2s;
+}
+
+.padding-rl {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.padding-30 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3279a8;
+}
+/*Set property value to the h2 with the class="flot-left"*/
+.footer h2 {
+  font-size: 15px;
+}
+
+/* Skills */
+
+.front-end,
+.back-end,
+.soft-skills {
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 65px;
+}
+
+/* .front-end h3,
+  .back-end h3,
+  .soft-skills h3{
+    font-size: 32px;
+  } */
+
+.front-end ul,
+.back-end ul,
+.soft-skills ul {
+  padding: 16px 30px 0 30px;
+}
+.front-end li,
+.back-end li,
+.soft-skills li {
+  font-size: 20px;
+}
+
+#work p,
+#work a {
+  font-size: 20px;
+}
+
+#work p {
+  margin-bottom: 24px;
+}
+
+#work .project-dec {
+  padding-top: 40px;
+}
+
+img.project-img:hover {
+  transform: scale(1.05);
+}
+
+.contactme ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.contactme {
+  text-align: center;
+}
+
+/* Media Quries */
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
-  a {
-    color: #000;
-    text-decoration: none;
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
   }
-  .header nav ul li a:hover,
-  .header nav ul li a:focus {
-    color: #1c0808;
-  }
-  
-  p {
-    font-size: 16px;
-  }
+}
