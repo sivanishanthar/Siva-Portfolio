@@ -161,12 +161,6 @@ p {
   padding-left: 65px;
 }
 
-/* .front-end h3,
-  .back-end h3,
-  .soft-skills h3{
-    font-size: 32px;
-  } */
-
 .front-end ul,
 .back-end ul,
 .soft-skills ul {
@@ -205,13 +199,6 @@ img.project-img:hover {
   text-align: center;
 }
 
-/* Media Quries 
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-*/
 
 
 @media only screen and (max-width: 1400px) {
