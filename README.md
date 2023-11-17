@@ -21,7 +21,7 @@ The goal of this webpage is to show my portfolio. I build this using HTML and CS
 
 # Link to deployed application
 
-https://sivanishanthar.github.io/Siva-Portfolio/
+Siva's Bio page: https://sivanishanthar.github.io/Siva-Portfolio/
 
 # License
 
