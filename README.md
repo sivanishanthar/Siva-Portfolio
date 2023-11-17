@@ -12,7 +12,11 @@ https://sivanishanthar.github.io/Siva-Portfolio/
 
 # Usage
 
-The goal of this webpage is to show my portfolio. I build this using HTML and CSS. See below image for Siva's bio page
+The goal of this webpage is to show my portfolio. I build this using HTML and CSS. See below images for Siva's bio page
+
+![Top of the page](assets/images/bio-1.png)
+![Middle of the page](assets/images/bio-2.png)
+![End of the page](assets/images/bio-3.png)
 
 
 # Link to deployed application
